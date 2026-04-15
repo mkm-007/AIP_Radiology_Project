@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Data - NEVER PUSH protected datasets
+data/raw/
+data/interim/
+data/processed/
+
+# Results / heavy outputs
+results/checkpoints/
+results/figures/
+results/tables/
+
+# Logs / temp
+*.log
+*.tmp
