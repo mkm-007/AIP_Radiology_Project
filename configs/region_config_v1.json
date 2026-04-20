@@ -1,0 +1,34 @@
+{
+  "canonical_regions": [
+    "left_lung",
+    "right_lung",
+    "mediastinum",
+    "heart",
+    "left_hemidiaphragm",
+    "right_hemidiaphragm"
+  ],
+  "raw_to_canonical": {
+    "left lung": "left_lung",
+    "left upper lung zone": "left_lung",
+    "left mid lung zone": "left_lung",
+    "left lower lung zone": "left_lung",
+
+    "right lung": "right_lung",
+    "right upper lung zone": "right_lung",
+    "right mid lung zone": "right_lung",
+    "right lower lung zone": "right_lung",
+
+    "mediastinum": "mediastinum",
+    "superior mediastinum": "mediastinum",
+    "upper mediastinum": "mediastinum",
+
+    "cardiac silhouette": "heart",
+    "cardiac shadow viewed radiologically;;heart": "heart",
+    "left cardiac silhouette": "heart",
+    "right border of heart viewed radiologically": "heart",
+    "structure of left margin of heart": "heart",
+
+    "left hemidiaphragm": "left_hemidiaphragm",
+    "right hemidiaphragm": "right_hemidiaphragm"
+  }
+}
